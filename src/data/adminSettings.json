@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "image": "https://res.cloudinary.com/dk30ucgnk/image/upload/v1779100609/sarvanash_comics/x0quvxqa8fxwln9chf2c.png",
+    "subHeader": "A SARVANASH CINEMATIC WORLD",
+    "header": "WELCOME SARVANASHI",
+    "paragraphs": [
+      "Welcome to a universe where every frame tells a story.",
+      "Dive into a premium digital comic experience filled with cinematic worlds, unforgettable characters, and visually immersive storytelling. From dark mysteries to futuristic adventures, our comics are crafted to feel alive — blending art, emotion, and imagination into every panel.",
+      "Explore new chapters, discover original heroes, and experience stories beyond reality."
+    ]
+  },
+  "trending": [
+    {
+      "comicId": "floor-13",
+      "title": "Floor 13",
+      "chapter": "01",
+      "image": "/uploads/1779056030277_ch-1_thumbnail.jpeg"
+    }
+  ],
+  "about": {
+    "title": "About Sarvanash",
+    "subtitle": "Sarvanash Studios was founded on a singular vision: to elevate the digital comic reading experience from a simple scroll to a cinematic journey.",
+    "image": "/uploads/1779058204302_about.png",
+    "philosophyHeader": "Storytelling through Technology",
+    "philosophyDesc": "We believe that stories deserve to be told with the full power of modern web technologies. By combining traditional comic art with subtle motion, atmospheric lighting, and buttery smooth interactions, we create an emotional resonance that static pages simply cannot match.",
+    "statReaders": "10k+",
+    "statStories": "1"
+  },
+  "messages": []
+}
