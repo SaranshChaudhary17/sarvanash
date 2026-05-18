@@ -8,7 +8,7 @@ export default function AboutPage() {
   const [aboutData, setAboutData] = useState({
     title: "About Sarvanash",
     subtitle: "Sarvanash Studios was founded on a singular vision: to elevate the digital comic reading experience from a simple scroll to a cinematic journey.",
-    image: "/comics/Ch-2 thumbnail.jpeg",
+    image: "F:\Comic\public\about.png",
     philosophyHeader: "Storytelling through Technology",
     philosophyDesc: "We believe that stories deserve to be told with the full power of modern web technologies. By combining traditional comic art with subtle motion, atmospheric lighting, and buttery smooth interactions, we create an emotional resonance that static pages simply cannot match.",
     statReaders: "1M+",
@@ -51,10 +51,10 @@ export default function AboutPage() {
             transition={{ duration: 1 }}
           >
             <div className="relative aspect-square w-full rounded-2xl overflow-hidden glass-panel">
-              <Image 
-                src={aboutData.image} 
-                alt="Studio creation process" 
-                fill 
+              <Image
+                src={aboutData.image}
+                alt="Studio creation process"
+                fill
                 className="object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-1000"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-black via-transparent to-transparent opacity-80" />
@@ -75,7 +75,7 @@ export default function AboutPage() {
                 {aboutData.philosophyDesc}
               </p>
             </div>
-            
+
             <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/10">
               <div>
                 <h4 className="text-3xl font-black text-white mb-2">{aboutData.statReaders}</h4>
