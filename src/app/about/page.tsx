@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import AboutClient from "@/components/AboutClient";
+import AboutClient from "../../components/AboutClient";
 
 function getAboutSettings() {
   const filePath = path.join(process.cwd(), "src/data/adminSettings.json");
