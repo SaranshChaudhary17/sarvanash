@@ -8,7 +8,7 @@ export default function AboutPage() {
   const [aboutData, setAboutData] = useState({
     title: "About Sarvanash",
     subtitle: "Sarvanash Studios was founded on a singular vision: to elevate the digital comic reading experience from a simple scroll to a cinematic journey.",
-    image: "F:\Comic\public\about.png",
+    image: "/about.png",
     philosophyHeader: "Storytelling through Technology",
     philosophyDesc: "We believe that stories deserve to be told with the full power of modern web technologies. By combining traditional comic art with subtle motion, atmospheric lighting, and buttery smooth interactions, we create an emotional resonance that static pages simply cannot match.",
     statReaders: "1M+",
