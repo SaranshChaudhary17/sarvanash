@@ -3,6 +3,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Sarvanash | Cinematic Digital Comics",
@@ -24,7 +25,9 @@ export default function RootLayout({
           </main>
           <Footer />
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
 }
+
